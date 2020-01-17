@@ -29,6 +29,9 @@
 
 .grid1 {
   grid-area: 1 / 1 / 4 / 2;
+  width: 100%;
+  margin: 0 auto !important;
+  padding: 0 !important;
 }
 
 .grid2 {

@@ -166,4 +166,8 @@ eval("var api = __webpack_require__(/*! ../node_modules/style-loader/dist/runtim
 
 /***/ })
 
+<<<<<<< HEAD
 /******/ });
+=======
+/******/ });
+>>>>>>> d673e175c2468013eece18502ef483c4e4bc05e9

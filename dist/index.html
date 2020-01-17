@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Empty project</title>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="loader-wrapper">
+        <span class="loader">
+            <span class="loader-inner"></span>
+        </span>
+    </div>
+    <div class="app">
+        <header class="header">
+            <div class="title">NOODRINK</div>
+            <div class="motto">Drink it. Feel it. Live it.</div>
+        </header>
+        <main class="main">
+            <div class="grid-container">
+                <div class="grid1">
+                    <ul class="ingredients">
+                        <p class="ingredient-title">INGREDIENTS</p>
+                        <li class="ingredient">Vitamin A</li>
+                        <li class="ingredient">Vitamin B2</li>
+                        <li class="ingredient">Vitamin B3</li>
+                        <li class="ingredient">Vitamin B5</li>
+                        <li class="ingredient">Vitamin B6</li>
+                        <li class="ingredient">Vitamin B12</li>
+                        <li class="ingredient">Vitamin C</li>
+                        <li class="ingredient">Cholin</li>
+                        <li class="ingredient">Vitamin E</li>
+                        <li class="ingredient">Calcium</li>
+                        <li class="ingredient">Magnesium</li>
+                        <li class="ingredient">Potassium</li>
+                        <li class="ingredient">Sodium</li>
+                        <li class="ingredient">Caffeine</li>
+                        <li class="ingredient">Taurine</li>
+                        <li class="ingredient link rainbow"
+                            data-tooltip="Piracetam is considered the first nootropic drug of its kind.
+                        Studies observe that piracetam increases your brain’s blood supply, as well as oxygen and glucose consumption">
+                            Piracetam</li>
+                        <li class="ingredient">Mateine</li>
+                    </ul>
+                </div>
+                <div class="grid2"></div>
+
+                <div class="grid3">
+                    <hr>
+                    <p class="description">NooDrink is a revolutionary “energy drink” designed for ambitious people who
+                        want to make their
+                        day as productive as possible. It contains substances, which allow you to extend your mind
+                        limits, boost your mood and give you the energy to work for the whole day! </p>
+                </div>
+            </div>
+        </main>
+        <div class="contact">
+            <hr>
+            <h1 class="contact-text">contact us</h1>
+            <form action="#" class="contact-form">
+                <p>First name</p>
+                <input type="text" name="firstname" id="firstname" placeholder="Your name">
+                <p>Second name</p>
+                <input type="text" name="secondname" id="secondname" placeholder="Your second name">
+                <p>E mail</p>
+                <input type="email" name="mail" id="mail" placeholder="Your mail">
+                <div id="ex1" class="modal">
+                    <p>Thanks for contacting us. We will answer you as fast as possible. (actually we will not)</p>
+                    <a href="#" rel="modal:close" style="text-decoration: none;">Close</a>
+                </div>
+                <a href="#ex1" rel="modal:open" class="open-modal"><button type="submit"
+                        class="contact-form-button">send</button></a>
+            </form>
+        </div>
+        <hr>
+        <footer class="footer">
+            <a href="#" class="fa not-clickable fa-facebook"></a>
+            <a href="https://github.com/mimikdesu" target="_blank" class="fa fa-github"></a>
+            <a href="#" class="fa not-clickable fa-twitter"></a>
+            <a href="#" class="fa not-clickable fa-snapchat"></a>
+        </footer>
+    </div>
+    <script src="bundle.js"></script>
+
+</body>
+
+</html>

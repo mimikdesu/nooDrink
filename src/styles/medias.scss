@@ -1,0 +1,40 @@
+@media (max-width: 1100px) {
+  .grid-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .grid2 {
+    width: 600px;
+    height: 600px;
+    margin-bottom: 40px;
+  }
+  .contact-form {
+    width: 50%;
+  }
+}
+
+@media (max-width: 700px) {
+  .title {
+    font-size: 80px !important;
+  }
+  .grid2 {
+    width: 400px;
+    height: 400px;
+  }
+  .contact-form {
+    width: 80%;
+  }
+  .footer {
+  }
+}
+
+@media (max-width: 500px) {
+  .title {
+    font-size: 50px !important;
+  }
+  .grid2 {
+    width: 300px;
+    height: 300px;
+  }
+}

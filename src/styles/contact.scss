@@ -1,0 +1,70 @@
+.contact {
+  color: white;
+  margin-bottom: 30px;
+}
+
+.contact-text {
+  text-transform: uppercase;
+}
+
+.contact-form {
+  border: 1px solid lightgray;
+  width: 33%;
+  padding-bottom: 20px;
+  margin: 0 auto 10px;
+  border-radius: 20px;
+  input {
+    width: 90%;
+    border-radius: 10px;
+    border: none;
+    padding: 0px 5px;
+    height: 30px;
+    outline: none;
+  }
+}
+
+.contact-form-button {
+  outline: none;
+  margin-top: 20px;
+  width: 50%;
+  height: 50px;
+  border: none;
+  border-radius: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  background: rgba(212, 228, 239, 1);
+  background: -moz-linear-gradient(
+    left,
+    rgba(212, 228, 239, 1) 0%,
+    rgba(134, 174, 204, 1) 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    right top,
+    color-stop(0%, rgba(212, 228, 239, 1)),
+    color-stop(100%, rgba(134, 174, 204, 1))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(212, 228, 239, 1) 0%,
+    rgba(134, 174, 204, 1) 100%
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(212, 228, 239, 1) 0%,
+    rgba(134, 174, 204, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(212, 228, 239, 1) 0%,
+    rgba(134, 174, 204, 1) 100%
+  );
+  background: linear-gradient(
+    to right,
+    rgba(212, 228, 239, 1) 0%,
+    rgba(134, 174, 204, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', endColorstr='#86aecc', GradientType=1 );
+}

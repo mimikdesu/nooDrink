@@ -1,0 +1,42 @@
+.footer {
+  height: 50px;
+  width: 60%;
+  margin: 20px auto 0;
+  padding-bottom: 40px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-github {
+  background: rgb(36, 41, 46);
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-snapchat {
+  background: rgb(255, 253, 51);
+  color: white;
+}
